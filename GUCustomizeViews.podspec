@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  自家APP用訂製輸入框
+  待補
                    DESC
 
   s.homepage     = "https://github.com/mosluce/GUCustomizeViews"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "GUCustomizeViews/Classes", "GUCustomizeViews/Classes/**/*.{h,m,swift}"
+  s.exclude_files = "GUCustomizeViews/Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Resources/*.{png,xib}"
+  s.resources = "GUCustomizeViews/Resources/*.{png,xib}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
