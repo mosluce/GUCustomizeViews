@@ -39,7 +39,7 @@ public class GUTextFieldView: GUXibView, GUTextFieldDelegate {
     override func commonInit() {
         super.commonInit()
         
-        guard let contentView = contentView else { return }
+        guard let contentView = contentView else { fatalError() }
         
         let rate = GUView.proportionForView()
         
@@ -63,7 +63,7 @@ public class GUTextFieldView: GUXibView, GUTextFieldDelegate {
         messageLabel.minimumScaleFactor = 0.5
         messageLabel.textColor = GUColors.Red500
         messageLabel.snp_makeConstraints { (make) in
-            make.top.left.equalTo(messageView)
+            make.top.left.right.equalTo(messageView)
             make.height.equalTo(messageView).multipliedBy(0.545)
         }
         
@@ -74,6 +74,7 @@ public class GUTextFieldView: GUXibView, GUTextFieldDelegate {
         return "GUTextFieldView"
     }
     
+    //MARK: GUTextFieldDelegate
     public func viewForLeftView() -> UIView? {
         return nil
     }
@@ -108,18 +109,18 @@ public class GUTextFieldView: GUXibView, GUTextFieldDelegate {
     
     public func frameForRightErrorView(bounds: CGRect) -> CGRect {
         return CGRectMake(bounds.width - bounds.height, 0, bounds.height, bounds.height)
+        //        return CGRectZero
     }
     
     public func setErrorMessage(message: String?) {
         if messageLabel.text != message {
             messageLabel.text = message
             
-            buttomSpacing.updateOffset(0)
-            
             if message != nil {
                 buttomSpacing.updateOffset(messageView.bounds.height * -1)
                 field.validated = false
             } else {
+                buttomSpacing.updateOffset(0)
                 field.validated = true
             }
             
@@ -144,5 +145,21 @@ public class GUTextFieldView: GUXibView, GUTextFieldDelegate {
             
             self.layer.addSublayer(borderShapeLayer)
         }
+    }
+    
+    public override func becomeFirstResponder() -> Bool {
+        super.becomeFirstResponder()
+        
+        field.becomeFirstResponder()
+        
+        return true
+    }
+    
+    public override func resignFirstResponder() -> Bool {
+        super.resignFirstResponder()
+        
+        field.resignFirstResponder()
+        
+        return true
     }
 }

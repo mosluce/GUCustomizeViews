@@ -18,6 +18,7 @@
 		44410C311D6EFC90006C5881 /* GUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2C1D6EFC90006C5881 /* GUView.swift */; };
 		44410C321D6EFC90006C5881 /* GUXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2D1D6EFC90006C5881 /* GUXibView.swift */; };
 		44410C341D6EFC98006C5881 /* GUTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44410C331D6EFC98006C5881 /* GUTextFieldView.xib */; };
+		44645A231D6F2560009D3089 /* GUPasswordFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44645A221D6F2560009D3089 /* GUPasswordFieldView.swift */; };
 		F0AFA410144E6205474081D4 /* Pods_GUCustomizeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		44410C2C1D6EFC90006C5881 /* GUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUView.swift; sourceTree = "<group>"; };
 		44410C2D1D6EFC90006C5881 /* GUXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUXibView.swift; sourceTree = "<group>"; };
 		44410C331D6EFC98006C5881 /* GUTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUTextFieldView.xib; sourceTree = "<group>"; };
+		44645A221D6F2560009D3089 /* GUPasswordFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUPasswordFieldView.swift; sourceTree = "<group>"; };
 		79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.debug.xcconfig"; sourceTree = "<group>"; };
 		9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GUCustomizeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,10 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				44410C291D6EFC90006C5881 /* GUColors.swift */,
-				44410C2A1D6EFC90006C5881 /* GUTextField.swift */,
-				44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */,
 				44410C2C1D6EFC90006C5881 /* GUView.swift */,
 				44410C2D1D6EFC90006C5881 /* GUXibView.swift */,
+				44410C2A1D6EFC90006C5881 /* GUTextField.swift */,
+				44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */,
+				44645A221D6F2560009D3089 /* GUPasswordFieldView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				44410C181D6EFBF9006C5881 /* ViewController.swift in Sources */,
 				44410C301D6EFC90006C5881 /* GUTextFieldView.swift in Sources */,
+				44645A231D6F2560009D3089 /* GUPasswordFieldView.swift in Sources */,
 				44410C2F1D6EFC90006C5881 /* GUTextField.swift in Sources */,
 				44410C321D6EFC90006C5881 /* GUXibView.swift in Sources */,
 				44410C2E1D6EFC90006C5881 /* GUColors.swift in Sources */,

@@ -134,6 +134,5 @@ public class GUTextField: UITextField {
     func viewForRightErrorView() -> UIView?
     func frameForRightErrorView(bounds: CGRect) -> CGRect
     
-    optional
-    func didFontChanged(font: UIFont?)
+    optional func didFontChanged(font: UIFont?)
 }

@@ -24,9 +24,14 @@ public class GUXibView: UIView {
     
     func commonInit() {
         NSBundle(forClass: self.classForCoder).loadNibNamed(nibName(), owner: self, options: nil)
-        guard let content = contentView else { return }
+        
+        guard let content = contentView else {
+            return
+        }
+        
         content.frame = self.bounds
         content.autoresizingMask = [.FlexibleHeight, .FlexibleWidth]
+        
         self.insertSubview(content, atIndex: 0)
     }
     
