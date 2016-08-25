@@ -1,0 +1,6 @@
+framework module Pods_GUCustomizeViews {
+  umbrella header "Pods-GUCustomizeViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

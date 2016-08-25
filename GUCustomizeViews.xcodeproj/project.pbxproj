@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44410C161D6EFBF9006C5881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C151D6EFBF9006C5881 /* AppDelegate.swift */; };
+		44410C181D6EFBF9006C5881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C171D6EFBF9006C5881 /* ViewController.swift */; };
+		44410C1B1D6EFBF9006C5881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44410C191D6EFBF9006C5881 /* Main.storyboard */; };
+		44410C1D1D6EFBF9006C5881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44410C1C1D6EFBF9006C5881 /* Assets.xcassets */; };
+		44410C201D6EFBF9006C5881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44410C1E1D6EFBF9006C5881 /* LaunchScreen.storyboard */; };
+		44410C2E1D6EFC90006C5881 /* GUColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C291D6EFC90006C5881 /* GUColors.swift */; };
+		44410C2F1D6EFC90006C5881 /* GUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2A1D6EFC90006C5881 /* GUTextField.swift */; };
+		44410C301D6EFC90006C5881 /* GUTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */; };
+		44410C311D6EFC90006C5881 /* GUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2C1D6EFC90006C5881 /* GUView.swift */; };
+		44410C321D6EFC90006C5881 /* GUXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2D1D6EFC90006C5881 /* GUXibView.swift */; };
+		44410C341D6EFC98006C5881 /* GUTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44410C331D6EFC98006C5881 /* GUTextFieldView.xib */; };
+		F0AFA410144E6205474081D4 /* Pods_GUCustomizeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44410C121D6EFBF9006C5881 /* GUCustomizeViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUCustomizeViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44410C151D6EFBF9006C5881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44410C171D6EFBF9006C5881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44410C1A1D6EFBF9006C5881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44410C1C1D6EFBF9006C5881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44410C1F1D6EFBF9006C5881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44410C211D6EFBF9006C5881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44410C291D6EFC90006C5881 /* GUColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUColors.swift; sourceTree = "<group>"; };
+		44410C2A1D6EFC90006C5881 /* GUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextField.swift; sourceTree = "<group>"; };
+		44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextFieldView.swift; sourceTree = "<group>"; };
+		44410C2C1D6EFC90006C5881 /* GUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUView.swift; sourceTree = "<group>"; };
+		44410C2D1D6EFC90006C5881 /* GUXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUXibView.swift; sourceTree = "<group>"; };
+		44410C331D6EFC98006C5881 /* GUTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUTextFieldView.xib; sourceTree = "<group>"; };
+		79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GUCustomizeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44410C0F1D6EFBF9006C5881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AFA410144E6205474081D4 /* Pods_GUCustomizeViews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38315B4D9B6EC4BFD2E6622B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44410C091D6EFBF9006C5881 = {
+			isa = PBXGroup;
+			children = (
+				44410C141D6EFBF9006C5881 /* GUCustomizeViews */,
+				44410C131D6EFBF9006C5881 /* Products */,
+				7F4CADA324C28DBA26611264 /* Pods */,
+				38315B4D9B6EC4BFD2E6622B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44410C131D6EFBF9006C5881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44410C121D6EFBF9006C5881 /* GUCustomizeViews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44410C141D6EFBF9006C5881 /* GUCustomizeViews */ = {
+			isa = PBXGroup;
+			children = (
+				44410C281D6EFC4B006C5881 /* Resources */,
+				44410C271D6EFC3F006C5881 /* Classes */,
+				44410C151D6EFBF9006C5881 /* AppDelegate.swift */,
+				44410C171D6EFBF9006C5881 /* ViewController.swift */,
+				44410C191D6EFBF9006C5881 /* Main.storyboard */,
+				44410C1C1D6EFBF9006C5881 /* Assets.xcassets */,
+				44410C1E1D6EFBF9006C5881 /* LaunchScreen.storyboard */,
+				44410C211D6EFBF9006C5881 /* Info.plist */,
+			);
+			path = GUCustomizeViews;
+			sourceTree = "<group>";
+		};
+		44410C271D6EFC3F006C5881 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44410C291D6EFC90006C5881 /* GUColors.swift */,
+				44410C2A1D6EFC90006C5881 /* GUTextField.swift */,
+				44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */,
+				44410C2C1D6EFC90006C5881 /* GUView.swift */,
+				44410C2D1D6EFC90006C5881 /* GUXibView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44410C281D6EFC4B006C5881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44410C331D6EFC98006C5881 /* GUTextFieldView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F4CADA324C28DBA26611264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */,
+				F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44410C111D6EFBF9006C5881 /* GUCustomizeViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44410C241D6EFBF9006C5881 /* Build configuration list for PBXNativeTarget "GUCustomizeViews" */;
+			buildPhases = (
+				9D2896282CCBCCDA5A8F146F /* [CP] Check Pods Manifest.lock */,
+				44410C0E1D6EFBF9006C5881 /* Sources */,
+				44410C0F1D6EFBF9006C5881 /* Frameworks */,
+				44410C101D6EFBF9006C5881 /* Resources */,
+				0C2E16600A4FA1324D8E6580 /* [CP] Embed Pods Frameworks */,
+				3AEBAA1ED9D145B2328931A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GUCustomizeViews;
+			productName = GUCustomizeViews;
+			productReference = 44410C121D6EFBF9006C5881 /* GUCustomizeViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44410C0A1D6EFBF9006C5881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "默司";
+				TargetAttributes = {
+					44410C111D6EFBF9006C5881 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 44410C0D1D6EFBF9006C5881 /* Build configuration list for PBXProject "GUCustomizeViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44410C091D6EFBF9006C5881;
+			productRefGroup = 44410C131D6EFBF9006C5881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44410C111D6EFBF9006C5881 /* GUCustomizeViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44410C101D6EFBF9006C5881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44410C341D6EFC98006C5881 /* GUTextFieldView.xib in Resources */,
+				44410C201D6EFBF9006C5881 /* LaunchScreen.storyboard in Resources */,
+				44410C1D1D6EFBF9006C5881 /* Assets.xcassets in Resources */,
+				44410C1B1D6EFBF9006C5881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C2E16600A4FA1324D8E6580 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AEBAA1ED9D145B2328931A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2896282CCBCCDA5A8F146F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44410C0E1D6EFBF9006C5881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44410C181D6EFBF9006C5881 /* ViewController.swift in Sources */,
+				44410C301D6EFC90006C5881 /* GUTextFieldView.swift in Sources */,
+				44410C2F1D6EFC90006C5881 /* GUTextField.swift in Sources */,
+				44410C321D6EFC90006C5881 /* GUXibView.swift in Sources */,
+				44410C2E1D6EFC90006C5881 /* GUColors.swift in Sources */,
+				44410C311D6EFC90006C5881 /* GUView.swift in Sources */,
+				44410C161D6EFBF9006C5881 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44410C191D6EFBF9006C5881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44410C1A1D6EFBF9006C5881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44410C1E1D6EFBF9006C5881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44410C1F1D6EFBF9006C5881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44410C221D6EFBF9006C5881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44410C231D6EFBF9006C5881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44410C251D6EFBF9006C5881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GUCustomizeViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.GUCustomizeViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44410C261D6EFBF9006C5881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GUCustomizeViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.GUCustomizeViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44410C0D1D6EFBF9006C5881 /* Build configuration list for PBXProject "GUCustomizeViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44410C221D6EFBF9006C5881 /* Debug */,
+				44410C231D6EFBF9006C5881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44410C241D6EFBF9006C5881 /* Build configuration list for PBXNativeTarget "GUCustomizeViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44410C251D6EFBF9006C5881 /* Debug */,
+				44410C261D6EFBF9006C5881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44410C0A1D6EFBF9006C5881 /* Project object */;
+}
