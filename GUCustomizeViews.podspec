@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GUCustomizeViews"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "自家APP用訂製輸入框"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  待補
+  可直接使用 UITextFieldView 或繼承，詳細日後再補
                    DESC
 
   s.homepage     = "https://github.com/mosluce/GUCustomizeViews"
