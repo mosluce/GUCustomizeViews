@@ -15,6 +15,7 @@ target 'GUCustomizeViewsExamples' do
 
   pod 'SnapKit'
   pod 'SwiftHEXColors'
+  pod 'GUCustomizeViews', :git => 'https://github.com/mosluce/GUCustomizeViews.git'
 end
 
 post_install do |installer|
