@@ -7,137 +7,211 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44410C161D6EFBF9006C5881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C151D6EFBF9006C5881 /* AppDelegate.swift */; };
-		44410C181D6EFBF9006C5881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C171D6EFBF9006C5881 /* ViewController.swift */; };
-		44410C1B1D6EFBF9006C5881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44410C191D6EFBF9006C5881 /* Main.storyboard */; };
-		44410C1D1D6EFBF9006C5881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44410C1C1D6EFBF9006C5881 /* Assets.xcassets */; };
-		44410C201D6EFBF9006C5881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44410C1E1D6EFBF9006C5881 /* LaunchScreen.storyboard */; };
-		44410C2E1D6EFC90006C5881 /* GUColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C291D6EFC90006C5881 /* GUColors.swift */; };
-		44410C2F1D6EFC90006C5881 /* GUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2A1D6EFC90006C5881 /* GUTextField.swift */; };
-		44410C301D6EFC90006C5881 /* GUTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */; };
-		44410C311D6EFC90006C5881 /* GUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2C1D6EFC90006C5881 /* GUView.swift */; };
-		44410C321D6EFC90006C5881 /* GUXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44410C2D1D6EFC90006C5881 /* GUXibView.swift */; };
-		44410C341D6EFC98006C5881 /* GUTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44410C331D6EFC98006C5881 /* GUTextFieldView.xib */; };
-		44645A231D6F2560009D3089 /* GUPasswordFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44645A221D6F2560009D3089 /* GUPasswordFieldView.swift */; };
-		F0AFA410144E6205474081D4 /* Pods_GUCustomizeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */; };
+		446C4D761D6FE041000809E2 /* GUColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4D751D6FE041000809E2 /* GUColors.swift */; };
+		446C4D781D6FE04C000809E2 /* GUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4D771D6FE04C000809E2 /* GUTextField.swift */; };
+		446C4D7A1D6FE067000809E2 /* GUView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4D791D6FE067000809E2 /* GUView.swift */; };
+		446C4D821D6FE30E000809E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4D811D6FE30E000809E2 /* AppDelegate.swift */; };
+		446C4D841D6FE30E000809E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446C4D831D6FE30E000809E2 /* ViewController.swift */; };
+		446C4D871D6FE30E000809E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446C4D851D6FE30E000809E2 /* Main.storyboard */; };
+		446C4D891D6FE30E000809E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446C4D881D6FE30E000809E2 /* Assets.xcassets */; };
+		446C4D8C1D6FE30E000809E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446C4D8A1D6FE30E000809E2 /* LaunchScreen.storyboard */; };
+		447D53B91D7023AD00AE0691 /* GUCustomizeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */; };
+		447D53BA1D7023AD00AE0691 /* GUCustomizeViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		447D53BF1D7027FF00AE0691 /* GUTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */; };
+		44B246E41D6FDBCF00607E4C /* GUCustomizeViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B246E31D6FDBCF00607E4C /* GUCustomizeViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D60C888D242E1D29BABA8A /* Pods_GUCustomizeViewsExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A370259BE5EB26397466F565 /* Pods_GUCustomizeViewsExamples.framework */; };
+		C4ECC71982C7F329857C03E8 /* Pods_GUCustomizeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D184454B099B3435BE65F2 /* Pods_GUCustomizeViews.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		447D53BB1D7023AD00AE0691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44B246D71D6FDBCF00607E4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B246DF1D6FDBCF00607E4C;
+			remoteInfo = GUCustomizeViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		447D53BD1D7023AD00AE0691 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				447D53BA1D7023AD00AE0691 /* GUCustomizeViews.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		44410C121D6EFBF9006C5881 /* GUCustomizeViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUCustomizeViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		44410C151D6EFBF9006C5881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44410C171D6EFBF9006C5881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44410C1A1D6EFBF9006C5881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		44410C1C1D6EFBF9006C5881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		44410C1F1D6EFBF9006C5881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		44410C211D6EFBF9006C5881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44410C291D6EFC90006C5881 /* GUColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUColors.swift; sourceTree = "<group>"; };
-		44410C2A1D6EFC90006C5881 /* GUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextField.swift; sourceTree = "<group>"; };
-		44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextFieldView.swift; sourceTree = "<group>"; };
-		44410C2C1D6EFC90006C5881 /* GUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUView.swift; sourceTree = "<group>"; };
-		44410C2D1D6EFC90006C5881 /* GUXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUXibView.swift; sourceTree = "<group>"; };
-		44410C331D6EFC98006C5881 /* GUTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUTextFieldView.xib; sourceTree = "<group>"; };
-		44645A221D6F2560009D3089 /* GUPasswordFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUPasswordFieldView.swift; sourceTree = "<group>"; };
-		79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.debug.xcconfig"; sourceTree = "<group>"; };
-		9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GUCustomizeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.release.xcconfig"; sourceTree = "<group>"; };
+		0F683E2DE01D77CC52FB930E /* Pods-GUCustomizeViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.debug.xcconfig"; sourceTree = "<group>"; };
+		446C4D751D6FE041000809E2 /* GUColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUColors.swift; sourceTree = "<group>"; };
+		446C4D771D6FE04C000809E2 /* GUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextField.swift; sourceTree = "<group>"; };
+		446C4D791D6FE067000809E2 /* GUView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUView.swift; sourceTree = "<group>"; };
+		446C4D7F1D6FE30E000809E2 /* GUCustomizeViewsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUCustomizeViewsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		446C4D811D6FE30E000809E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		446C4D831D6FE30E000809E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		446C4D861D6FE30E000809E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		446C4D881D6FE30E000809E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		446C4D8B1D6FE30E000809E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446C4D8D1D6FE30E000809E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextFieldView.swift; sourceTree = "<group>"; };
+		44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GUCustomizeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B246E31D6FDBCF00607E4C /* GUCustomizeViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCustomizeViews.h; sourceTree = "<group>"; };
+		44B246E51D6FDBCF00607E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A370259BE5EB26397466F565 /* Pods_GUCustomizeViewsExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GUCustomizeViewsExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D184454B099B3435BE65F2 /* Pods_GUCustomizeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GUCustomizeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80A0A71B253981109AE67CC /* Pods-GUCustomizeViewsExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViewsExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViewsExamples/Pods-GUCustomizeViewsExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B902BFC964B5BD731968A8 /* Pods-GUCustomizeViewsExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViewsExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViewsExamples/Pods-GUCustomizeViewsExamples.release.xcconfig"; sourceTree = "<group>"; };
+		DDF62A31A9E22B2FAA5878FC /* Pods-GUCustomizeViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GUCustomizeViews.release.xcconfig"; path = "Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44410C0F1D6EFBF9006C5881 /* Frameworks */ = {
+		446C4D7C1D6FE30E000809E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0AFA410144E6205474081D4 /* Pods_GUCustomizeViews.framework in Frameworks */,
+				77D60C888D242E1D29BABA8A /* Pods_GUCustomizeViewsExamples.framework in Frameworks */,
+				447D53B91D7023AD00AE0691 /* GUCustomizeViews.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B246DC1D6FDBCF00607E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ECC71982C7F329857C03E8 /* Pods_GUCustomizeViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38315B4D9B6EC4BFD2E6622B /* Frameworks */ = {
+		33D569A70A517FA17CF1628B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A2595D2134083E0CB1CE4FB /* Pods_GUCustomizeViews.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		44410C091D6EFBF9006C5881 = {
-			isa = PBXGroup;
-			children = (
-				44410C141D6EFBF9006C5881 /* GUCustomizeViews */,
-				44410C131D6EFBF9006C5881 /* Products */,
-				7F4CADA324C28DBA26611264 /* Pods */,
-				38315B4D9B6EC4BFD2E6622B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		44410C131D6EFBF9006C5881 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				44410C121D6EFBF9006C5881 /* GUCustomizeViews.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		44410C141D6EFBF9006C5881 /* GUCustomizeViews */ = {
-			isa = PBXGroup;
-			children = (
-				44410C281D6EFC4B006C5881 /* Resources */,
-				44410C271D6EFC3F006C5881 /* Classes */,
-				44410C151D6EFBF9006C5881 /* AppDelegate.swift */,
-				44410C171D6EFBF9006C5881 /* ViewController.swift */,
-				44410C191D6EFBF9006C5881 /* Main.storyboard */,
-				44410C1C1D6EFBF9006C5881 /* Assets.xcassets */,
-				44410C1E1D6EFBF9006C5881 /* LaunchScreen.storyboard */,
-				44410C211D6EFBF9006C5881 /* Info.plist */,
-			);
-			path = GUCustomizeViews;
-			sourceTree = "<group>";
-		};
-		44410C271D6EFC3F006C5881 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				44410C291D6EFC90006C5881 /* GUColors.swift */,
-				44410C2C1D6EFC90006C5881 /* GUView.swift */,
-				44410C2D1D6EFC90006C5881 /* GUXibView.swift */,
-				44410C2A1D6EFC90006C5881 /* GUTextField.swift */,
-				44410C2B1D6EFC90006C5881 /* GUTextFieldView.swift */,
-				44645A221D6F2560009D3089 /* GUPasswordFieldView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		44410C281D6EFC4B006C5881 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				44410C331D6EFC98006C5881 /* GUTextFieldView.xib */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7F4CADA324C28DBA26611264 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */,
-				F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */,
+				0F683E2DE01D77CC52FB930E /* Pods-GUCustomizeViews.debug.xcconfig */,
+				DDF62A31A9E22B2FAA5878FC /* Pods-GUCustomizeViews.release.xcconfig */,
+				D80A0A71B253981109AE67CC /* Pods-GUCustomizeViewsExamples.debug.xcconfig */,
+				D8B902BFC964B5BD731968A8 /* Pods-GUCustomizeViewsExamples.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		446C4D741D6FDFEE000809E2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				446C4D791D6FE067000809E2 /* GUView.swift */,
+				446C4D751D6FE041000809E2 /* GUColors.swift */,
+				446C4D771D6FE04C000809E2 /* GUTextField.swift */,
+				447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		446C4D801D6FE30E000809E2 /* GUCustomizeViewsExamples */ = {
+			isa = PBXGroup;
+			children = (
+				446C4D811D6FE30E000809E2 /* AppDelegate.swift */,
+				446C4D831D6FE30E000809E2 /* ViewController.swift */,
+				446C4D851D6FE30E000809E2 /* Main.storyboard */,
+				446C4D881D6FE30E000809E2 /* Assets.xcassets */,
+				446C4D8A1D6FE30E000809E2 /* LaunchScreen.storyboard */,
+				446C4D8D1D6FE30E000809E2 /* Info.plist */,
+			);
+			path = GUCustomizeViewsExamples;
+			sourceTree = "<group>";
+		};
+		44B246D61D6FDBCF00607E4C = {
+			isa = PBXGroup;
+			children = (
+				44B246E21D6FDBCF00607E4C /* GUCustomizeViews */,
+				446C4D801D6FE30E000809E2 /* GUCustomizeViewsExamples */,
+				44B246E11D6FDBCF00607E4C /* Products */,
+				33D569A70A517FA17CF1628B /* Pods */,
+				E7511EFD28ECD1E1A135C40E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44B246E11D6FDBCF00607E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */,
+				446C4D7F1D6FE30E000809E2 /* GUCustomizeViewsExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B246E21D6FDBCF00607E4C /* GUCustomizeViews */ = {
+			isa = PBXGroup;
+			children = (
+				446C4D741D6FDFEE000809E2 /* Classes */,
+				44B246E31D6FDBCF00607E4C /* GUCustomizeViews.h */,
+				44B246E51D6FDBCF00607E4C /* Info.plist */,
+			);
+			path = GUCustomizeViews;
+			sourceTree = "<group>";
+		};
+		E7511EFD28ECD1E1A135C40E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3D184454B099B3435BE65F2 /* Pods_GUCustomizeViews.framework */,
+				A370259BE5EB26397466F565 /* Pods_GUCustomizeViewsExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		44B246DD1D6FDBCF00607E4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B246E41D6FDBCF00607E4C /* GUCustomizeViews.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		44410C111D6EFBF9006C5881 /* GUCustomizeViews */ = {
+		446C4D7E1D6FE30E000809E2 /* GUCustomizeViewsExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44410C241D6EFBF9006C5881 /* Build configuration list for PBXNativeTarget "GUCustomizeViews" */;
+			buildConfigurationList = 446C4D8E1D6FE30E000809E2 /* Build configuration list for PBXNativeTarget "GUCustomizeViewsExamples" */;
 			buildPhases = (
-				9D2896282CCBCCDA5A8F146F /* [CP] Check Pods Manifest.lock */,
-				44410C0E1D6EFBF9006C5881 /* Sources */,
-				44410C0F1D6EFBF9006C5881 /* Frameworks */,
-				44410C101D6EFBF9006C5881 /* Resources */,
-				0C2E16600A4FA1324D8E6580 /* [CP] Embed Pods Frameworks */,
-				3AEBAA1ED9D145B2328931A3 /* [CP] Copy Pods Resources */,
+				B5711865B0158D449ABC56B4 /* [CP] Check Pods Manifest.lock */,
+				446C4D7B1D6FE30E000809E2 /* Sources */,
+				446C4D7C1D6FE30E000809E2 /* Frameworks */,
+				446C4D7D1D6FE30E000809E2 /* Resources */,
+				4D0475E437DC3409746E4183 /* [CP] Embed Pods Frameworks */,
+				C5EEFE28E1B4ECCE1B8BC5E4 /* [CP] Copy Pods Resources */,
+				447D53BD1D7023AD00AE0691 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447D53BC1D7023AD00AE0691 /* PBXTargetDependency */,
+			);
+			name = GUCustomizeViewsExamples;
+			productName = GUCustomizeViewsExamples;
+			productReference = 446C4D7F1D6FE30E000809E2 /* GUCustomizeViewsExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44B246DF1D6FDBCF00607E4C /* GUCustomizeViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B246E81D6FDBCF00607E4C /* Build configuration list for PBXNativeTarget "GUCustomizeViews" */;
+			buildPhases = (
+				4A1BA3B1A04C9DE04B6AEEBB /* [CP] Check Pods Manifest.lock */,
+				44B246DB1D6FDBCF00607E4C /* Sources */,
+				44B246DC1D6FDBCF00607E4C /* Frameworks */,
+				44B246DD1D6FDBCF00607E4C /* Headers */,
+				44B246DE1D6FDBCF00607E4C /* Resources */,
+				CF50B2BDA744BEE47C47B6A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,25 +219,28 @@
 			);
 			name = GUCustomizeViews;
 			productName = GUCustomizeViews;
-			productReference = 44410C121D6EFBF9006C5881 /* GUCustomizeViews.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		44410C0A1D6EFBF9006C5881 /* Project object */ = {
+		44B246D71D6FDBCF00607E4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "默司";
 				TargetAttributes = {
-					44410C111D6EFBF9006C5881 = {
+					446C4D7E1D6FE30E000809E2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					44B246DF1D6FDBCF00607E4C = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 44410C0D1D6EFBF9006C5881 /* Build configuration list for PBXProject "GUCustomizeViews" */;
+			buildConfigurationList = 44B246DA1D6FDBCF00607E4C /* Build configuration list for PBXProject "GUCustomizeViews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,32 +248,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 44410C091D6EFBF9006C5881;
-			productRefGroup = 44410C131D6EFBF9006C5881 /* Products */;
+			mainGroup = 44B246D61D6FDBCF00607E4C;
+			productRefGroup = 44B246E11D6FDBCF00607E4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44410C111D6EFBF9006C5881 /* GUCustomizeViews */,
+				44B246DF1D6FDBCF00607E4C /* GUCustomizeViews */,
+				446C4D7E1D6FE30E000809E2 /* GUCustomizeViewsExamples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		44410C101D6EFBF9006C5881 /* Resources */ = {
+		446C4D7D1D6FE30E000809E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44410C341D6EFC98006C5881 /* GUTextFieldView.xib in Resources */,
-				44410C201D6EFBF9006C5881 /* LaunchScreen.storyboard in Resources */,
-				44410C1D1D6EFBF9006C5881 /* Assets.xcassets in Resources */,
-				44410C1B1D6EFBF9006C5881 /* Main.storyboard in Resources */,
+				446C4D8C1D6FE30E000809E2 /* LaunchScreen.storyboard in Resources */,
+				446C4D891D6FE30E000809E2 /* Assets.xcassets in Resources */,
+				446C4D871D6FE30E000809E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B246DE1D6FDBCF00607E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C2E16600A4FA1324D8E6580 /* [CP] Embed Pods Frameworks */ = {
+		4A1BA3B1A04C9DE04B6AEEBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0475E437DC3409746E4183 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,10 +307,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUCustomizeViewsExamples/Pods-GUCustomizeViewsExamples-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3AEBAA1ED9D145B2328931A3 /* [CP] Copy Pods Resources */ = {
+		B5711865B0158D449ABC56B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EEFE28E1B4ECCE1B8BC5E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUCustomizeViewsExamples/Pods-GUCustomizeViewsExamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF50B2BDA744BEE47C47B6A3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -226,54 +355,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GUCustomizeViews/Pods-GUCustomizeViews-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D2896282CCBCCDA5A8F146F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44410C0E1D6EFBF9006C5881 /* Sources */ = {
+		446C4D7B1D6FE30E000809E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44410C181D6EFBF9006C5881 /* ViewController.swift in Sources */,
-				44410C301D6EFC90006C5881 /* GUTextFieldView.swift in Sources */,
-				44645A231D6F2560009D3089 /* GUPasswordFieldView.swift in Sources */,
-				44410C2F1D6EFC90006C5881 /* GUTextField.swift in Sources */,
-				44410C321D6EFC90006C5881 /* GUXibView.swift in Sources */,
-				44410C2E1D6EFC90006C5881 /* GUColors.swift in Sources */,
-				44410C311D6EFC90006C5881 /* GUView.swift in Sources */,
-				44410C161D6EFBF9006C5881 /* AppDelegate.swift in Sources */,
+				446C4D841D6FE30E000809E2 /* ViewController.swift in Sources */,
+				446C4D821D6FE30E000809E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B246DB1D6FDBCF00607E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447D53BF1D7027FF00AE0691 /* GUTextFieldView.swift in Sources */,
+				446C4D761D6FE041000809E2 /* GUColors.swift in Sources */,
+				446C4D7A1D6FE067000809E2 /* GUView.swift in Sources */,
+				446C4D781D6FE04C000809E2 /* GUTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		447D53BC1D7023AD00AE0691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44B246DF1D6FDBCF00607E4C /* GUCustomizeViews */;
+			targetProxy = 447D53BB1D7023AD00AE0691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		44410C191D6EFBF9006C5881 /* Main.storyboard */ = {
+		446C4D851D6FE30E000809E2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				44410C1A1D6EFBF9006C5881 /* Base */,
+				446C4D861D6FE30E000809E2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		44410C1E1D6EFBF9006C5881 /* LaunchScreen.storyboard */ = {
+		446C4D8A1D6FE30E000809E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				44410C1F1D6EFBF9006C5881 /* Base */,
+				446C4D8B1D6FE30E000809E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -281,7 +408,35 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		44410C221D6EFBF9006C5881 /* Debug */ = {
+		446C4D8F1D6FE30E000809E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80A0A71B253981109AE67CC /* Pods-GUCustomizeViewsExamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = GUCustomizeViewsExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.GUCustomizeViewsExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		446C4D901D6FE30E000809E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B902BFC964B5BD731968A8 /* Pods-GUCustomizeViewsExamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = GUCustomizeViewsExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.GUCustomizeViewsExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44B246E61D6FDBCF00607E4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,6 +456,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -323,10 +479,13 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		44410C231D6EFBF9006C5881 /* Release */ = {
+		44B246E71D6FDBCF00607E4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,6 +505,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -360,56 +520,83 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		44410C251D6EFBF9006C5881 /* Debug */ = {
+		44B246E91D6FDBCF00607E4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79E88262473AD2C71F8F3E48 /* Pods-GUCustomizeViews.debug.xcconfig */;
+			baseConfigurationReference = 0F683E2DE01D77CC52FB930E /* Pods-GUCustomizeViews.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GUCustomizeViews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.GUCustomizeViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		44410C261D6EFBF9006C5881 /* Release */ = {
+		44B246EA1D6FDBCF00607E4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F902190A8D4C4CD38244F25E /* Pods-GUCustomizeViews.release.xcconfig */;
+			baseConfigurationReference = DDF62A31A9E22B2FAA5878FC /* Pods-GUCustomizeViews.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GUCustomizeViews/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.GUCustomizeViews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44410C0D1D6EFBF9006C5881 /* Build configuration list for PBXProject "GUCustomizeViews" */ = {
+		446C4D8E1D6FE30E000809E2 /* Build configuration list for PBXNativeTarget "GUCustomizeViewsExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44410C221D6EFBF9006C5881 /* Debug */,
-				44410C231D6EFBF9006C5881 /* Release */,
+				446C4D8F1D6FE30E000809E2 /* Debug */,
+				446C4D901D6FE30E000809E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44410C241D6EFBF9006C5881 /* Build configuration list for PBXNativeTarget "GUCustomizeViews" */ = {
+		44B246DA1D6FDBCF00607E4C /* Build configuration list for PBXProject "GUCustomizeViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44410C251D6EFBF9006C5881 /* Debug */,
-				44410C261D6EFBF9006C5881 /* Release */,
+				44B246E61D6FDBCF00607E4C /* Debug */,
+				44B246E71D6FDBCF00607E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B246E81D6FDBCF00607E4C /* Build configuration list for PBXNativeTarget "GUCustomizeViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B246E91D6FDBCF00607E4C /* Debug */,
+				44B246EA1D6FDBCF00607E4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 44410C0A1D6EFBF9006C5881 /* Project object */;
+	rootObject = 44B246D71D6FDBCF00607E4C /* Project object */;
 }

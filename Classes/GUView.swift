@@ -8,17 +8,13 @@
 
 import UIKit
 
-class GUView: UIView {
+extension UIView {
     
-    static func proportionForView() -> CGFloat {
+    func proportionForView() -> CGFloat {
         let w = UIScreen.mainScreen().bounds.width
         let h = UIScreen.mainScreen().bounds.height
         
-        if w > h {
-            return w / 1920
-        } else {
-            return w / 1080
-        }
+        return min(w, h) / 1080
     }
     
 }

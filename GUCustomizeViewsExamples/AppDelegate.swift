@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  GUCustomizeViews
+//  GUCustomizeViewsExamples
 //
-//  Created by 默司 on 2016/8/25.
+//  Created by 默司 on 2016/8/26.
 //  Copyright © 2016年 默司. All rights reserved.
 //
 
