@@ -34,6 +34,8 @@ public class GUTextField: UITextField {
     public override var delegate: UITextFieldDelegate? {
         didSet {
             tfdelegate = delegate as? GUTextFieldDelegate
+            
+            updateSideViews()
         }
     }
     
@@ -71,7 +73,7 @@ public class GUTextField: UITextField {
     public override func leftViewRectForBounds(bounds: CGRect) -> CGRect {
         
         if validateDelegate(#selector(GUTextFieldDelegate.rectForLeftView(_:))) {
-            tfdelegate!.rectForLeftView!(bounds)
+            return tfdelegate!.rectForLeftView!(bounds)
         }
         
         return CGRectZero
@@ -130,6 +132,18 @@ public class GUTextField: UITextField {
             rightView = tfdelegate?.viewForRightErrorView?()
         } else {
             rightView = tfdelegate?.viewForRightView?()
+        }
+        
+        if leftView != nil {
+            leftViewMode = .Always
+        } else {
+            leftViewMode = .Never
+        }
+        
+        if rightView != nil {
+            rightViewMode = .Always
+        } else {
+            rightViewMode = .Never
         }
     }
     

@@ -1,6 +1,0 @@
-framework module GUCustomizeViews {
-  umbrella header "GUCustomizeViews-umbrella.h"
-
-  export *
-  module * { export * }
-}
