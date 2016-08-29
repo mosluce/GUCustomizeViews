@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GUCustomizeViews"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of GUCustomizeViews."
   s.homepage     = "https://github.com/mosluce/GUCustomizeViews"
   s.license      = { :type => "MIT", :file => "LICENSE" }

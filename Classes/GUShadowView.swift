@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class ShadowView: UIView {
+public class GUShadowView: UIView {
     
     public var shadowColor: UIColor! = UIColor.blackColor()
     public var shadowOffset: CGSize! = CGSizeMake(0.0, 1.0)

@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 
 @IBDesignable
-public class MaterialShadowView: UIView {
+public class GUMaterialShadowView: UIView {
     
     public var depth: UInt = 1 {
         didSet {
@@ -18,8 +18,8 @@ public class MaterialShadowView: UIView {
         }
     }
     
-    let topShadowView = ShadowView()
-    let bottomShadowView = ShadowView()
+    let topShadowView = GUShadowView()
+    let bottomShadowView = GUShadowView()
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
