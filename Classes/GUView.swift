@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     
-    func proportionForView() -> CGFloat {
+    public func proportionForView() -> CGFloat {
         let w = UIScreen.mainScreen().bounds.width
         let h = UIScreen.mainScreen().bounds.height
         
