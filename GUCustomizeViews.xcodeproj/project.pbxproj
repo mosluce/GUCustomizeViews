@@ -18,6 +18,8 @@
 		447D53BF1D7027FF00AE0691 /* GUTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */; };
 		4483804B1D73D49300D78F5F /* GUMaterialShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448380491D73D49300D78F5F /* GUMaterialShadowView.swift */; };
 		4483804C1D73D49300D78F5F /* GUShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4483804A1D73D49300D78F5F /* GUShadowView.swift */; };
+		4483804E1D73DAAF00D78F5F /* GULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4483804D1D73DAAF00D78F5F /* GULabel.swift */; };
+		448380501D73DB5300D78F5F /* GUButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4483804F1D73DB5300D78F5F /* GUButton.swift */; };
 		44B246E41D6FDBCF00607E4C /* GUCustomizeViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B246E31D6FDBCF00607E4C /* GUCustomizeViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44BC36931D7056AA00BE272A /* GUHelloFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BC36921D7056AA00BE272A /* GUHelloFieldView.swift */; };
 		44BC36941D70572A00BE272A /* GUCustomizeViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */; };
@@ -65,6 +67,8 @@
 		447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUTextFieldView.swift; sourceTree = "<group>"; };
 		448380491D73D49300D78F5F /* GUMaterialShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUMaterialShadowView.swift; sourceTree = "<group>"; };
 		4483804A1D73D49300D78F5F /* GUShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUShadowView.swift; sourceTree = "<group>"; };
+		4483804D1D73DAAF00D78F5F /* GULabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GULabel.swift; sourceTree = "<group>"; };
+		4483804F1D73DB5300D78F5F /* GUButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUButton.swift; sourceTree = "<group>"; };
 		44B246E01D6FDBCF00607E4C /* GUCustomizeViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GUCustomizeViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B246E31D6FDBCF00607E4C /* GUCustomizeViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCustomizeViews.h; sourceTree = "<group>"; };
 		44B246E51D6FDBCF00607E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				446C4D791D6FE067000809E2 /* GUView.swift */,
 				446C4D751D6FE041000809E2 /* GUColors.swift */,
 				446C4D771D6FE04C000809E2 /* GUTextField.swift */,
+				4483804D1D73DAAF00D78F5F /* GULabel.swift */,
+				4483804F1D73DB5300D78F5F /* GUButton.swift */,
 				447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */,
 				44BC36921D7056AA00BE272A /* GUHelloFieldView.swift */,
 			);
@@ -384,8 +390,10 @@
 				446C4D761D6FE041000809E2 /* GUColors.swift in Sources */,
 				44BC36931D7056AA00BE272A /* GUHelloFieldView.swift in Sources */,
 				4483804B1D73D49300D78F5F /* GUMaterialShadowView.swift in Sources */,
+				4483804E1D73DAAF00D78F5F /* GULabel.swift in Sources */,
 				446C4D7A1D6FE067000809E2 /* GUView.swift in Sources */,
 				446C4D781D6FE04C000809E2 /* GUTextField.swift in Sources */,
+				448380501D73DB5300D78F5F /* GUButton.swift in Sources */,
 				4483804C1D73D49300D78F5F /* GUShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
