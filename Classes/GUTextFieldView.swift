@@ -65,7 +65,7 @@ public class GUTextFieldView: UIView, GUTextFieldDelegate {
     }
     
     //初始化寫這裡不需要 override 兩個 init
-    func commonInit() {
+    public func commonInit() {
         self.addSubview(textField)
         
         textField.snp_makeConstraints { (make) in
