@@ -8,10 +8,11 @@
 
 import UIKit
 
-class GUButton: UIButton {
+@IBDesignable
+public class GUButton: UIButton {
     
     @IBInspectable
-    var designedFontSize: CGFloat = 0 {
+    public var designedFontSize: CGFloat = 0 {
         didSet {
             updateFontSize()
         }

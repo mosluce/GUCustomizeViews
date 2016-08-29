@@ -9,10 +9,10 @@
 import UIKit
 
 @IBDesignable
-class GULabel: UILabel {
+public class GULabel: UILabel {
     
     @IBInspectable
-    var designedFontSize: CGFloat = 0 {
+    public var designedFontSize: CGFloat = 0 {
         didSet {
             updateFontSize()
         }
