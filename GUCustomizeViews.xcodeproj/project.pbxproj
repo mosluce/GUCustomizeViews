@@ -115,14 +115,14 @@
 		446C4D741D6FDFEE000809E2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				448380491D73D49300D78F5F /* GUMaterialShadowView.swift */,
-				4483804A1D73D49300D78F5F /* GUShadowView.swift */,
 				446C4D791D6FE067000809E2 /* GUView.swift */,
 				446C4D751D6FE041000809E2 /* GUColors.swift */,
 				446C4D771D6FE04C000809E2 /* GUTextField.swift */,
 				4483804D1D73DAAF00D78F5F /* GULabel.swift */,
 				4483804F1D73DB5300D78F5F /* GUButton.swift */,
 				447D53BE1D7027FF00AE0691 /* GUTextFieldView.swift */,
+				4483804A1D73D49300D78F5F /* GUShadowView.swift */,
+				448380491D73D49300D78F5F /* GUMaterialShadowView.swift */,
 				44BC36921D7056AA00BE272A /* GUHelloFieldView.swift */,
 			);
 			name = Classes;

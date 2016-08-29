@@ -111,6 +111,8 @@ public class GUTextFieldView: UIView, GUTextFieldDelegate {
         textField.designedFontName = fontName
         textField.designedFontSize = fontSize
         textField.textColor = textColor
+        
+        self.backgroundColor = UIColor.clearColor()
     }
     
     public override func drawRect(rect: CGRect) {
